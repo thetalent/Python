@@ -1,0 +1,15 @@
+http://python.microbit.org/editor.html
+https://microbit-playground.co.uk/cheat-sheet/
+http://microbit-micropython.readthedocs.io/en/latest/display.html
+
+
+----------------------------
+Beispiel micro:bit
+----------------------------
+from microbit import *
+
+display.clear()
+for x in range(0, 5):
+    for y in range(0, 5):
+        display.set_pixel(x,y,9)
+        sleep(200)
